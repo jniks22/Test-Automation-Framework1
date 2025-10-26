@@ -1,12 +1,12 @@
 {
   "data": [
     {
-      "emailAddress": "alex.reynolds@exampletest.com",
-      "password": "AxR3n!2025"
-    },
-    {
       "emailAddress": "hayamer649@erynka.com",
       "password": "password"
+    },
+    {
+      "emailAddress": "mason.jenkins@example.com",
+      "password": "P@ssw0rd123!"
     }
   ]
 }
