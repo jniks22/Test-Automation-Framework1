@@ -29,8 +29,8 @@
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<browser>chrome</browser>
-						<isLambdaTest>false</isLambdaTest>
-						<isHeadless>true</isHeadless>
+						<isLambdaTest>true</isLambdaTest>
+						<isHeadless>false</isHeadless>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
