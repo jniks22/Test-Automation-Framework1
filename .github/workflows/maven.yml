@@ -22,6 +22,9 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Verify test data
+        run: ls -R
+        
       - name: Running Test Automation framework with Maven
         run: mvn test -X -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=true
 
@@ -41,3 +44,5 @@ jobs:
 
       - name: Test Execution Status
         run: echo "✅ Test Execution Completed"
+
+   
