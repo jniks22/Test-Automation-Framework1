@@ -35,7 +35,7 @@ public class LoginDataProvider {
 		}
 		return dataToReturn.iterator();
 		
-	}
+	} 
 	
 	@DataProvider(name= "LoginTestCSVDataProvider")
 	public Iterator<User> loginCSVDataProvider() {
